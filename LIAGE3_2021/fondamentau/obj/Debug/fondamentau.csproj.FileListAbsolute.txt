@@ -1,0 +1,7 @@
+c:\users\habon\source\repos\LIAGE3_2021\fondamentau\bin\Debug\fondamentau.exe.config
+c:\users\habon\source\repos\LIAGE3_2021\fondamentau\bin\Debug\fondamentau.exe
+c:\users\habon\source\repos\LIAGE3_2021\fondamentau\bin\Debug\fondamentau.pdb
+c:\users\habon\source\repos\LIAGE3_2021\fondamentau\obj\Debug\fondamentau.csprojAssemblyReference.cache
+c:\users\habon\source\repos\LIAGE3_2021\fondamentau\obj\Debug\fondamentau.csproj.CoreCompileInputs.cache
+c:\users\habon\source\repos\LIAGE3_2021\fondamentau\obj\Debug\fondamentau.exe
+c:\users\habon\source\repos\LIAGE3_2021\fondamentau\obj\Debug\fondamentau.pdb

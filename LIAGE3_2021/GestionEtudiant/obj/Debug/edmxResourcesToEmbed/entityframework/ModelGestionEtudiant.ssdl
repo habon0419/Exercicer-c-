@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="gestion_etudiantModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Classe">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="libelle" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="nbre_etudiant" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Personne">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nom_complet" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="type" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="tuteur" Type="varchar" MaxLength="255" />
+    <Property Name="grade" Type="varchar" MaxLength="255" />
+    <Property Name="modules" Type="text" />
+    <Property Name="matricule" Type="varchar" MaxLength="255" />
+    <Property Name="login" Type="varchar" MaxLength="255" />
+    <Property Name="pwd" Type="varchar" MaxLength="255" />
+    <Property Name="classe_id" Type="int" />
+  </EntityType>
+  <Association Name="FK_Personne_Classe">
+    <End Role="Classe" Type="Self.Classe" Multiplicity="0..1" />
+    <End Role="Personne" Type="Self.Personne" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Classe">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Personne">
+        <PropertyRef Name="classe_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="gestion_etudiantModelStoreContainer">
+    <EntitySet Name="Classe" EntityType="Self.Classe" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Personne" EntityType="Self.Personne" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Personne_Classe" Association="Self.FK_Personne_Classe">
+      <End Role="Classe" EntitySet="Classe" />
+      <End Role="Personne" EntitySet="Personne" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

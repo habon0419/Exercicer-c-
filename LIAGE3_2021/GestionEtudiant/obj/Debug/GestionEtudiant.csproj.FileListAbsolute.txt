@@ -1,0 +1,14 @@
+c:\users\habon\source\repos\LIAGE3_2021\GestionEtudiant\bin\Debug\GestionEtudiant.exe.config
+c:\users\habon\source\repos\LIAGE3_2021\GestionEtudiant\bin\Debug\GestionEtudiant.exe
+c:\users\habon\source\repos\LIAGE3_2021\GestionEtudiant\bin\Debug\GestionEtudiant.pdb
+c:\users\habon\source\repos\LIAGE3_2021\GestionEtudiant\obj\Debug\GestionEtudiant.csprojAssemblyReference.cache
+c:\users\habon\source\repos\LIAGE3_2021\GestionEtudiant\obj\Debug\GestionEtudiant.Properties.Resources.resources
+c:\users\habon\source\repos\LIAGE3_2021\GestionEtudiant\obj\Debug\GestionEtudiant.csproj.GenerateResource.cache
+c:\users\habon\source\repos\LIAGE3_2021\GestionEtudiant\obj\Debug\GestionEtudiant.csproj.CoreCompileInputs.cache
+c:\users\habon\source\repos\LIAGE3_2021\GestionEtudiant\obj\Debug\GestionEtudiant.exe
+c:\users\habon\source\repos\LIAGE3_2021\GestionEtudiant\obj\Debug\GestionEtudiant.pdb
+C:\Users\habon\source\repos\LIAGE3_2021\GestionEtudiant\obj\Debug\GestionEtudiant.Form1.resources
+C:\Users\habon\source\repos\LIAGE3_2021\GestionEtudiant\obj\Debug\GestionEtudiant.FrmConnexion.resources
+C:\Users\habon\source\repos\LIAGE3_2021\GestionEtudiant\obj\Debug\GestionEtudiant.FrmMenu.resources
+C:\Users\habon\source\repos\LIAGE3_2021\GestionEtudiant\obj\Debug\GestionEtudiant.FrmInscription.resources
+C:\Users\habon\source\repos\LIAGE3_2021\GestionEtudiant\obj\Debug\GestionEtudiant.FrmProfesseur.resources
